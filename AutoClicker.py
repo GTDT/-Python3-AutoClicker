@@ -40,15 +40,3 @@ tr2 = threading.Thread(target=ShortcutListener)
 
 tr1.start()
 tr2.start()
-
-
-
-
-
-
-
-
-
-
-
-
