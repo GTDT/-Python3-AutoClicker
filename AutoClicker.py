@@ -4,13 +4,7 @@ import threading, time
 
 cps = float(input("Enter the delay in seconds: "))
 
-time.sleep(1)
-print("\n	1")
-time.sleep(1)
-print("\n	2")
-time.sleep(1)
-print("\n	3")
-time.sleep(1)
+for i in range(3): print(f"\n	{i+1}"); time.sleep(1)
 print("\n   GO\n\n   Press ESCAPE to stop.\n\n\n")
 
 mouse = Controller()
